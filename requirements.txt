@@ -5,3 +5,6 @@ scikit-learn
 seaborn
 streamlit
 pickle
+scipy
+warnings
+math
