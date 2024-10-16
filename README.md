@@ -29,3 +29,66 @@ To run the app locally, follow these steps:
 ```bash
 git clone https://github.com/yourusername/mall-customer-clustering-app.git
 cd mall-customer-clustering-app
+```
+
+### 2. Install Dependencies
+Ensure that Python 3.x is installed. Install the required dependencies using `pip`:
+
+```bash
+pip install -r requirements.txt
+```
+
+The `requirements.txt` file should include libraries like:
+```plaintext
+pandas
+numpy
+matplotlib
+scikit-learn
+seaborn
+streamlit
+```
+
+### 3. Run the Clustering App
+After installing the dependencies, run the Streamlit app:
+
+```bash
+streamlit run Clustering_app.py
+```
+
+The app will open in your default browser at `http://localhost:8501`.
+
+## Usage
+1. **Run the Application**: Open the app and input customer data, such as age, income, and spending score.
+2. **View Results**: The app will classify the customer into a predefined cluster based on the input.
+3. **Analyze Clusters**: For in-depth analysis, use the `Mall Customer Clustering Models.py` script to retrain models or tweak hyperparameters.
+
+## Visualizations
+Some of the visualizations generated include:
+- **Elbow Method**: Used to find the optimal number of clusters.
+- **Dendrogram**: For hierarchical clustering.
+- **Cluster Visualizations**: Showing customer segments based on key features (e.g., Age vs. Income, Income vs. Spending Score).
+
+## Technologies Used
+- **Python**: For model development and application logic.
+- **scikit-learn**: For clustering algorithms and data processing.
+- **matplotlib & seaborn**: For data visualization.
+- **Streamlit**: For building the interactive customer clustering app.
+
+## Dataset
+The project uses the **Mall Customer Segmentation Data** from [Kaggle](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python), which contains the following fields:
+- **CustomerID**: Unique ID for each customer.
+- **Gender**: Gender of the customer.
+- **Age**: Age of the customer.
+- **Annual Income (k$)**: Annual income of the customer in thousands of dollars.
+- **Spending Score (1-100)**: Customer's spending score assigned by the mall.
+
+## Future Work
+- **Improved Customer Insights**: Add more features or behavioral data for better segmentation.
+- **Deploy the App**: Deploy the app on platforms like Heroku or AWS to make it accessible online.
+- **Recommendation Engine**: Integrate personalized recommendations for each customer cluster.
+
+## Contributing
+Contributions are welcome! If you’d like to contribute, please fork the repository and submit a pull request. For major changes, please open an issue to discuss what you would like to change.
+
+## License
+This project is licensed under the CC0 1.0 Universal License – see the [LICENSE](LICENSE) file for details.
