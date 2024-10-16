@@ -1,4 +1,4 @@
-Mall Customer Clustering App
+# Mall Customer Clustering App
 Overview
 This project is a Python-based application that uses clustering algorithms to segment mall customers based on their shopping behavior. It includes scripts for model training and development of a Streamlit app, allowing users to explore customer segments.
 
@@ -83,4 +83,4 @@ Contributing
 Contributions are welcome! If you’d like to contribute, please fork the repository and submit a pull request. For major changes, please open an issue to discuss what you would like to change.
 
 License
-This project is licensed under the CC License – see the LICENSE file for details.
+This project is licensed under the CC0 1.0 Universal License – see the LICENSE file for details.
