@@ -6,5 +6,3 @@ seaborn
 streamlit
 pickledb
 scipy
-warnings
-math
