@@ -46,6 +46,7 @@ matplotlib
 scikit-learn
 seaborn
 streamlit
+pickle
 ```
 
 ### 3. Run the Clustering App
